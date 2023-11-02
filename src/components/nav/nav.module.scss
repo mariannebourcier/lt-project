@@ -1,0 +1,20 @@
+.main_container {
+  height: 5rem;
+  background: var(--color-ivory);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+  position: sticky;
+  z-index: 1;
+
+
+  .links_container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+   
+  }
+}
