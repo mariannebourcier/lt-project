@@ -10,9 +10,9 @@ const NavComponent = () => {
         🐲 Legal Tech
       </div>
       <div className={style.links_container}>
-        <span>Plan</span>
-        <span>Resources</span>
-        <span>Contact</span>
+        <span className={style.link}>Plan</span>
+        <span className={style.link}>Resources</span>
+        <span className={style.link}>Contact</span>
         <BasicButtonComponent text='Register'/>
       </div>
 
