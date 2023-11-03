@@ -3,7 +3,10 @@ import BasicButtonComponent from '@/ui/basic-button/basic-button.component'
 import React from 'react'
 import style from './nav.module.scss'
 
-const NavComponent = () => {
+/**
+ * This navbar currently shows the UI for users that are not logged in or registered
+ */
+const Navbar = () => {
   return (
     <div className={style.main_container}>
       <div className={style.logo_container}>
@@ -20,4 +23,4 @@ const NavComponent = () => {
   )
 }
 
-export default NavComponent;
+export default Navbar;
