@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className={style.main_container}>
       <div className={style.logo_container}>
-        🐲 Legal Tech
+        🐲 
       </div>
       <div className={style.links_container}>
         <span className={style.link}>Plan</span>
