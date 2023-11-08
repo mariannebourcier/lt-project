@@ -1,5 +1,5 @@
 .main_container {
-  background-color: #f8f9fa;
+  background-color: var(--color-dark-green);
   padding: 20px 0;
   text-align: center;
   color: #6c757d;
@@ -7,5 +7,36 @@
   bottom: 0;
   width: 100%;
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 3rem;
+
+  .sub_container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .content_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+
+    span {
+      color: var(--color-ivory);
+      font-weight: 500;
+      font-size: 1.25rem;
+      cursor: pointer;
+    }
+  }
+
+
+  .horiz_line {
+    width: 100%;
+    border-top: 1px solid #f8f9fa;
+  }
 }
 
