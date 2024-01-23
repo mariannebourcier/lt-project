@@ -1,9 +1,10 @@
 'use client'
 import React from 'react'
+import style from './homepage.module.scss'
 
 const Homepage = () => {
 return (
-  <div>home</div>
+  <div>allo</div>
 )
 }
 

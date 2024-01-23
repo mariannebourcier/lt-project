@@ -9,6 +9,10 @@
   position: sticky;
   z-index: 1;
 
+  .logo_container {
+    cursor: pointer;
+  }
+
 
   .links_container {
     display: flex;
