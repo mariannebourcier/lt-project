@@ -16,8 +16,8 @@ const Footer = () => {
         <span>Register / Login</span>
       </div>
       <div className={style.content_container}>
-        <span>About</span>
-        <span>Our team</span>
+        <span onClick={() => router.push('/about')}>About</span>
+        <span onClick={() => router.push('/team')}>Our team</span>
         <span>Security & Privacy</span>
       </div>
       </div>
@@ -26,7 +26,7 @@ const Footer = () => {
       🐁
     </div>
     <div className={style.horiz_line}/>
-    <p>© 2022 My Website. All rights reserved.</p>
+    <p>© 2024 My Website. All rights reserved.</p>
     </div>
   )
 }
